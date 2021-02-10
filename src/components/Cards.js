@@ -5,19 +5,19 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out these New Posts!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src='images/bruno potm.jpeg'
+              text='Bruno Fernandes is the new Premier League Player of the Month'
               label='Adventure'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='images/team.jpeg'
+              text='Check out this 200k pro team'
               label='Luxury'
               path='/services'
             />
