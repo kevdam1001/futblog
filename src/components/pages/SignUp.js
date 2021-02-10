@@ -1,6 +1,12 @@
 import React from 'react';
+import Footer from '../Footer';
 import '../../App.css';
 
 export default function SignUp() {
-  return <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>;
+  return (
+    <>
+      <h1 className='services'>SIGNUP</h1>;
+      <Footer />
+    </>
+  );
 }
