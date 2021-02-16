@@ -12,34 +12,34 @@ function Cards() {
             <CardItem
               src='images/bruno potm.jpeg'
               text='Bruno Fernandes is the new Premier League Player of the Month'
-              label='Adventure'
+              label='Players'
               path='/services'
             />
             <CardItem
               src='images/team.jpeg'
               text='Check out this 200k pro team'
-              label='Luxury'
+              label='Squads'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/arnold packed.jpeg'
+              text='Lets goooo, i packed arnold TOTY!'
+              label='Packs'
+              path='/post'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/adama.jpeg'
+              text='Amazing FUT Freeze ADAMA TRAORE'
+              label='Players'
+              path='/post'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/live stream.jpeg'
+              text='Im going live guys! Link in da description!!!'
+              label='Others'
+              path='/post'
             />
           </ul>
         </div>
