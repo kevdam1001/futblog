@@ -1,11 +1,12 @@
 import React from 'react';
 import Footer from '../Footer';
+import SearchSection from '../SearchSection'
 import '../../App.css';
 
 export default function Search() {
   return (
     <>
-      <h1 className='search'>SEARCH</h1>;
+      <SearchSection/>
       <Footer />
     </>
   );
