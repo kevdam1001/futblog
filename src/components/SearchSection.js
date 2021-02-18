@@ -6,7 +6,11 @@ import DataTable from 'react-data-table-component';
 import CardItem from './CardItem';
 
 const tablaResultados =[
-    { año:"2000", tag:"players", image:"images/bruno potm.jpeg"},
+    { año:"2021", tag:"players", image:"images/bruno potm.jpeg"},
+    { año:"2002", tag:"players", image:"images/adama.jpeg"},
+    { año:"2003", tag:"others", image:"images/live stream.jpeg"},
+    { año:"2005", tag:"squads", image:"images/team.jpeg"},
+    { año:"2006", tag:"squads", image:"images/arnold packed.jpeg"}
   ];
 
   const paginacionOpciones={
@@ -86,8 +90,9 @@ const tablaResultados =[
     
   render(){
     return (
+      <div>
+      <h1 className='search_tittle'>SEARCH</h1>
       <div className="searchSection">
-      <h1>Search</h1>
       <div className="table-responsive">
         <div className="barraBusqueda">
               <input
@@ -98,28 +103,23 @@ const tablaResultados =[
                 value={this.state.busqueda}
                 onChange={this.onChange}
               />
-              <button type="button" className="btnBuscar" /*onClick={onClear}*/>
-                {" "}
-                <FontAwesomeIcon icon={faSearch} />
-              </button>
             </div>
-        <DataTable 
-        columns={this.state.columnas}
-        data={this.state.campeones}
-        title="Resultados para tu busqueda"
-        pagination
-        paginationComponentOptions={paginacionOpciones}
-        fixedHeader
-        fixedHeaderScrollHeight="600px"
-        noDataComponent={<span>No se encontró ningún elemento</span>}
-        />
-        
-        <CardItem
-              src={this.filtrar}
+        <div>
+        <div className='cards__wrapper'>
+        <ul className='cards__items'>
+          {
+            this.state.campeones.map(campeon => (
+              <CardItem
+              src={campeon.image}
               text='Check out this 200k pro team'
-              label='Squads'
+              label={campeon.tag}
               path='/services'
-            />
+              />
+            ))}
+        </ul>
+        </div>
+        </div>
+      </div>
       </div>
       </div>
     );
