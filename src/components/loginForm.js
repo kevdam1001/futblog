@@ -1,6 +1,7 @@
 import React from 'react';
 import { Paper, withStyles, Grid, TextField, Button, FormControlLabel, Checkbox } from '@material-ui/core';
 import { Face, Fingerprint } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 const styles = theme => ({
     margin: {
         margin: theme.spacing.unit * 2,
@@ -45,7 +46,9 @@ class LoginTab extends React.Component {
                         </Grid>
                     </Grid>
                     <Grid container justify="center" style={{ marginTop: '10px' }}>
+                    <Link to='/feed'>
                         <Button variant="outlined" color="primary" style={{ textTransform: "none" }}>Login</Button>
+                        </Link>
                     </Grid>
                 </div>
             </Paper>

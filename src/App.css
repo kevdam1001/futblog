@@ -7,6 +7,9 @@
 
 .home,
 .search,
+.feed
+.post,
+.profile,
 .contact{
   display: flex;
   height: 90vh;
@@ -36,6 +39,51 @@
 .sign-up {
   background-image: url('/images/main2.jpg');
   background-position: center;
+  background-size:auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.feed {
+  background-image: url('/images/main3.jpg');
+  background-position: auto;
+  background-size:auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+
+}
+
+.post{
+  background-image: url('/images/main3.jpg');
+  background-position: auto;
+  background-size:auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.profile{
+  background-image: url('/images/main3.jpg');
+  background-position: auto;
   background-size:auto;
   background-repeat: no-repeat;
   color: #fff;

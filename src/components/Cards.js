@@ -13,13 +13,13 @@ function Cards() {
               src='images/bruno potm.jpeg'
               text='Bruno Fernandes is the new Premier League Player of the Month'
               label='Players'
-              path='/services'
+              path='/post'
             />
             <CardItem
               src='images/team.jpeg'
               text='Check out this 200k pro team'
               label='Squads'
-              path='/services'
+              path='/post'
             />
           </ul>
           <ul className='cards__items'>
